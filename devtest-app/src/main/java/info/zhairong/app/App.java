@@ -16,8 +16,6 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * Hello world!
@@ -25,7 +23,6 @@ import org.slf4j.LoggerFactory;
  */
 public class App {
 	
-	private static final Logger LOG = LoggerFactory.getLogger(App.class);
 	public static void main(String[] args) {
 
 		String city = args[0];
